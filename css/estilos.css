@@ -146,7 +146,6 @@ h2 {
     margin-bottom: 40px;
 }
 
-
 .hero {
     height: 300px;
     background-color: #2d2d2d;
@@ -462,6 +461,14 @@ ol li:hover {
     color: white;
 }
 
+.header ol li .border {
+  height: initial;
+  border: 1px solid white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  margin: 14px 0; 
+}
+
 /* Desktop First que empieze desde el MQ mas grande */
 
 @media screen and (max-width: 1024px){
@@ -577,7 +584,7 @@ ol li:hover {
     }
 
     .project-description {
-        font-size: .8em;
+        font-size: 1em;
     }
 
     .event {
