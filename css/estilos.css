@@ -379,10 +379,10 @@ figure {
 
 .social-link {
     display: inline-block;
-    width: 46px;
-    height: 46px;
-    margin: 8px;
-    background-size: 46px 46px;
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    background-size: 50px 50px;
 }
 
 .social-link.twitter {
@@ -471,7 +471,7 @@ ol li:hover {
 
 /* Desktop First que empieze desde el MQ mas grande */
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1023px){
 
     .container {
         padding: 0 1em;
@@ -522,6 +522,11 @@ ol li:hover {
 }
 
 @media screen and (max-width: 767px){
+
+    h2 {
+        font-size: 1.2em;
+        margin: .6em;
+    }
 
     .burger-button {
         display: block;
@@ -596,6 +601,14 @@ ol li:hover {
         width: 100%;
     }
 
+    .social-link {
+    width: 43px;
+    height: 43px;
+    margin: 0 6px;
+    background-size: 100%;
+
+    }
+
     .header .menu {
         position: fixed;
         top: 0;
@@ -624,7 +637,7 @@ ol li:hover {
 
     .project-details {
         width: auto;
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .event-detail {
