@@ -273,10 +273,14 @@ li {
 .header a {
     color: white; /*  */
     text-decoration: none; /* Se usa para eliminar o adherir subrayado a un elemento de tipo texto. <a></a> */
-    height: inherit;
+    /* height: inherit; */
     display: flex;
     align-items: center;
-    padding: 0 10px;
+    padding: 10px 10px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    height: initial;
+    margin: 14px 4px;
 }
 /* 
 .header a:hover {
@@ -374,8 +378,8 @@ figure {
     flex-wrap: wrap;
 }
 
-.social {
-}
+/* .social {
+} */
 
 .social-link {
     display: inline-block;
@@ -441,8 +445,7 @@ figure {
     flex-wrap: inherit;
 }
 
-
-ol li:hover {
+ol li a:hover {
   background-color: #40739e;
 }
 
@@ -466,7 +469,7 @@ ol li:hover {
   border: 1px solid white;
   padding: 10px 20px;
   border-radius: 4px;
-  margin: 14px 0; 
+  margin: 14px 4px 
 }
 
 /* Desktop First que empieze desde el MQ mas grande */
